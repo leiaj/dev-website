@@ -51,8 +51,8 @@ nav {
 #test{
   border-style: solid;
   border-width: thin;
-  width: 10px;
-  height: 10px;
+  width: 35px;
+  height: 15px;
   border-color: transparent;
   position: absolute;
   bottom: 85px;
