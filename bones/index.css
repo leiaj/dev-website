@@ -6,6 +6,9 @@ body {
   background-image: url('http://www.geocities.ws/dopeycodes/backgrounds/stars-publ.bmp');
 }
 
+#welcome{
+}
+
 h1 {
   color: lightgreen;
 }
@@ -28,11 +31,30 @@ nav {
   background-image: url('https://media.giphy.com/media/zW0n7AIWG4ka4/giphy.gif');
 }
 
-.gitHub{
+.projects{
   background-image: url('https://media2.giphy.com/media/1TpGKApbHmkZa/giphy.gif');
   height: 500px;
 }
 
-.borderOne{
-  
+#picParent{
+  position: static;
+}
+
+#actualPic{
+  position: relative;
+}
+
+#interactivePic{
+  position: relative;
+}
+
+#test{
+  border-style: solid;
+  border-width: thick;
+  width: 10px;
+  height: 10px;
+  border-color: pink;
+  position: absolute;
+  bottom: 85px;
+  left: 800px;
 }

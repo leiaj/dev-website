@@ -2,7 +2,7 @@ $(document).ready(function() {
   console.log("Am I seeing this")
   newVistor()
   enterPage()
-
+  catMeow()
 
 
 
@@ -29,5 +29,12 @@ function enterPage(){
   })
   $('#enter').click(function(){
     console.log("Function called")
+  })
+}
+
+function catMeow(){
+  $('#test').click(function(){
+    console.log("Cat Meowing")
+
   })
 }
