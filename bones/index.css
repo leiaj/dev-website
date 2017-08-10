@@ -1,0 +1,16 @@
+body {
+  background-image: url('http://www.geocities.ws/dopeycodes/backgrounds/stars-publ.bmp');
+}
+
+h1 {
+  color: lightgreen;
+}
+h3 {
+  color: lightgreen;
+}
+h5 {
+  color: powderblue;
+}
+nav {
+  border-style: solid;
+}
