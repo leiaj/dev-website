@@ -1,4 +1,8 @@
 body {
+  background-color: black;
+}
+
+.centerWelcome {
   background-image: url('http://www.geocities.ws/dopeycodes/backgrounds/stars-publ.bmp');
 }
 
@@ -13,4 +17,22 @@ h5 {
 }
 nav {
   border-style: solid;
+}
+
+a {
+  color: pink;
+}
+
+nav {
+  width: absolute;
+  background-image: url('https://media.giphy.com/media/zW0n7AIWG4ka4/giphy.gif');
+}
+
+.gitHub{
+  background-image: url('https://media2.giphy.com/media/1TpGKApbHmkZa/giphy.gif');
+  height: 500px;
+}
+
+.borderOne{
+  
 }
