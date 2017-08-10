@@ -35,6 +35,6 @@ function enterPage(){
 function catMeow(){
   $('#test').click(function(){
     console.log("Cat Meowing")
-
-  })
-}
+    $('#myAudio').play()
+    })
+  }

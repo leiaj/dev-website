@@ -50,10 +50,10 @@ nav {
 
 #test{
   border-style: solid;
-  border-width: thick;
+  border-width: thin;
   width: 10px;
   height: 10px;
-  border-color: pink;
+  border-color: transparent;
   position: absolute;
   bottom: 85px;
   left: 800px;
