@@ -2,7 +2,7 @@ $(document).ready(function() {
   console.log("Am I seeing this")
   newVistor()
   enterPage()
-  introDiv()
+  contactDiv()
   catMeow()
 
 
@@ -24,8 +24,8 @@ function newVistor(){
     })
 }
 
-function introDiv(){
-  $('#intro').html(function(){
+function contactDiv(){
+  $('#contact').html(function(){
     return '<img src="http://www.internetarchaeology.org/img/Moving/WebElements/mail_1ani.gif"></img><img src="http://www.internetarchaeology.org/img/Moving/WebElements/AAAFree.gif"></img>'
   })
 }
