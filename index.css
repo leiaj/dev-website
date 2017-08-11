@@ -112,3 +112,14 @@ nav {
   bottom: 145px;
   left: 80px;
 }
+
+#trash{
+  border-style: solid;
+  border-width: thick;
+  width: 20px;
+  height: 30px;
+  border-color: transparent;
+  position: absolute;
+  bottom: 158px;
+  left: 315px;
+}
