@@ -41,19 +41,19 @@ nav {
 }
 
 #actualPic{
-  position: relative;
+  position: static;
 }
 
 #interactivePic{
-  position: relative;
+  position: absolute;
 }
 
 #test{
   border-style: solid;
   border-width: thin;
-  width: 10px;
-  height: 10px;
-  border-color: transparent;
+  width: 35px;
+  height: 15px;
+  border-color: pink;
   position: absolute;
   bottom: 85px;
   left: 800px;
