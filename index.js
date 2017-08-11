@@ -3,12 +3,6 @@ $(document).ready(function() {
   newVistor()
   enterPage()
   contactDiv()
-  catMeow()
-
-
-
-    // OR $('div.toshow').show(2200);
-    // OR $('div.toshow').slideDown("slow");
 
 })
 
@@ -40,8 +34,6 @@ function enterPage(){
 }
 
 function catMeow(){
-  $('#test').click(function(){
-    console.log("Cat Meowing")
-    $('#myAudio').play()
-    })
-  }
+  var x = document.getElementById("myAudio");
+    x.play()
+}
