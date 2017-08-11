@@ -11,16 +11,16 @@ function newVistor(){
       localStorage.person = prompt("Oh hey! Didn't see you there, what's you're name?");
     }
   $('#welcome').html(function() {
-      return "<h1>Hey, " + localStorage.person + "! Welcome to my page.</h1>"
+      return "<h1>Hey, " + localStorage.person + ", welcome to my page!</h1>"
     })
     $('#intro').html(function(){
-      return "<h1>My name is Leia, I'm a web developer :)</h1>"
+      return "<h1>My name is Leia, I'm a web developer :)</h1><h3>Make yourself at home, feel free to click around.</h3>"
     })
 }
 
 function contactDiv(){
   $('#contact').html(function(){
-    return '<img src="http://www.internetarchaeology.org/img/Moving/WebElements/mail_1ani.gif"></img><img src="http://www.internetarchaeology.org/img/Moving/WebElements/AAAFree.gif"></img>'
+    return '<a href="mailto:leiajospe@gmail.com">"<img src="http://www.animatedgif.net/computers/a_10mailput_e0.gif"></img></a><br><br><a href="https://github.com/leiaj/"><img src="images/minion.png" id="minion"></img></a><a href="https://www.linkedin.com/in/leia-josp%C3%A9-46753148/"><img src="http://illinoispartners.com/wp-content/uploads/2013/10/LinkedIn-Logo-02.png" id="linkedin"></img></a><a href="https://learn.co/leiaj/resume"><img src="https://maxcdn.icons8.com/Share/icon/nolan/Business//resume1600.png" id="resume"></img></a>'
   })
 }
 
