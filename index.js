@@ -20,7 +20,7 @@ function newVistor(){
       return "<h1>Hey, " + localStorage.person + "! Welcome to my page.</h1>"
     })
     $('#intro').html(function(){
-      return "<h1>My name is Leia & I'm a Web Developer.</h1>"
+      return "<h1>My name is Leia, I'm a web developer :)</h1>"
     })
 }
 
