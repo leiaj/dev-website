@@ -2,6 +2,7 @@ $(document).ready(function() {
   console.log("Am I seeing this")
   newVistor()
   enterPage()
+  introDiv()
   catMeow()
 
 
@@ -21,6 +22,12 @@ function newVistor(){
     $('#intro').html(function(){
       return "<h1>My name is Leia & I'm a Web Developer.</h1>"
     })
+}
+
+function introDiv(){
+  $('#intro').html(function(){
+    return '<img src="http://www.internetarchaeology.org/img/Moving/WebElements/mail_1ani.gif"></img><img src="http://www.internetarchaeology.org/img/Moving/WebElements/AAAFree.gif"></img>'
+  })
 }
 
 function enterPage(){
