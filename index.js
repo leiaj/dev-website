@@ -3,7 +3,7 @@ $(document).ready(function() {
   newVistor()
   enterPage()
   contactDiv()
-
+  recentProjects()
 })
 
 function newVistor(){
@@ -30,6 +30,12 @@ function enterPage(){
   })
   $('#enter').click(function(){
     console.log("Function called")
+  })
+}
+
+function recentProjects(){
+  $('.projects').html(function(){
+    return '<center><img src="images/recentproj.gif"></img><br><h2>Custom Chatroom Web App</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/1XG9HGhVV5w" frameborder="0" allowfullscreen></iframe><p id="chatroom">A custom chatroom application with a Ruby on Rails backend and React frontend. Incorporates use of websockets, react-draggable and Semantic UI. Click the video to watch the demo!</p><br><br></center>'
   })
 }
 
