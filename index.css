@@ -68,3 +68,25 @@ nav {
   bottom: 163px;
   left: 135px;
 }
+
+#spotify{
+  border-style: solid;
+  border-width: thick;
+  width: 25px;
+  height: 20px;
+  border-color: transparent;
+  position: absolute;
+  bottom: 180px;
+  left: 176px;
+}
+
+#clock{
+  border-style: solid;
+  border-width: thick;
+  width: 30px;
+  height: 45px;
+  border-color: transparent;
+  position: absolute;
+  bottom: 240px;
+  left: 208px;
+}
