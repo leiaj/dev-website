@@ -47,7 +47,7 @@ nav {
 }
 
 
-#test{
+#cat{
   border-style: solid;
   border-width: thick;
   width: 35px;
@@ -56,4 +56,15 @@ nav {
   position: absolute;
   bottom: 80px;
   left: 320px;
+}
+
+#photo{
+  border-style: solid;
+  border-width: thick;
+  width: 16px;
+  height: 15px;
+  border-color: transparent;
+  position: absolute;
+  bottom: 163px;
+  left: 135px;
 }

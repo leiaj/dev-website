@@ -37,3 +37,8 @@ function catMeow(){
   var x = document.getElementById("myAudio");
     x.play()
 }
+
+function photoPortfolio(url) {
+  var win = window.open(url, '_blank');
+  win.focus();
+}
