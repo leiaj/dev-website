@@ -101,3 +101,14 @@ nav {
   bottom: 230px;
   left: 70px;
 }
+
+#computer{
+  border-style: solid;
+  border-width: thick;
+  width: 50px;
+  height: 45px;
+  border-color: transparent;
+  position: absolute;
+  bottom: 145px;
+  left: 80px;
+}
