@@ -65,3 +65,13 @@ function getCurrentTime(){
   msg.voice = speechSynthesis.getVoices().filter(function(voice) { return voice.name == 'Whisper'; })[0];
   speechSynthesis.speak(msg);
 }
+
+function getCurrentDate(){
+  var currentDate = new Date(),
+    day = currentDate.getDate(),
+    month = currentDate.getMonth() + 1,
+    year = currentDate.getFullYear();
+  var msg = new SpeechSynthesisUtterance(`Today's date is ${day} ${month} ${year}`);
+  msg.voice = speechSynthesis.getVoices().filter(function(voice) { return voice.name == 'Whisper'; })[0];
+  speechSynthesis.speak(msg);
+}
