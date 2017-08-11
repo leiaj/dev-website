@@ -31,7 +31,6 @@ nav {
 
 .projects{
   background-image: url('https://media2.giphy.com/media/1TpGKApbHmkZa/giphy.gif');
-  height: 500px;
 }
 
 #actualPic{
@@ -147,4 +146,9 @@ nav {
   border-color: transparent;
   width: 60px;
   height: 60px;
+}
+
+#chatroom{
+  width: 500px;
+  font-weight: bold;
 }
