@@ -62,7 +62,7 @@ function getCurrentTime(){
 	}
 
   var msg = new SpeechSynthesisUtterance(`The current time is ${hours} ${minutes} ${suffix}`);
-  msg.voice = speechSynthesis.getVoices().filter(function(voice) { return voice.name == 'Whisper'; })[0];
+  msg.voice = speechSynthesis.getVoices().filter(function(voice) { return voice.name == 'Friend'; })[0];
   speechSynthesis.speak(msg);
 }
 
@@ -72,6 +72,12 @@ function getCurrentDate(){
     month = currentDate.getMonth() + 1,
     year = currentDate.getFullYear();
   var msg = new SpeechSynthesisUtterance(`Today's date is ${day} ${month} ${year}`);
-  msg.voice = speechSynthesis.getVoices().filter(function(voice) { return voice.name == 'Whisper'; })[0];
+  msg.voice = speechSynthesis.getVoices().filter(function(voice) { return voice.name == 'Friend'; })[0];
+  speechSynthesis.speak(msg);
+}
+
+function iLoveMyComp(){
+  var msg = new SpeechSynthesisUtterance(`I love my computer! Please hire me. Thanks. Goodbye!`);
+  msg.voice = speechSynthesis.getVoices().filter(function(voice) { return voice.name == 'Friend'; })[0];
   speechSynthesis.speak(msg);
 }
