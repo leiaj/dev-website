@@ -38,7 +38,30 @@ function catMeow(){
     x.play()
 }
 
-function photoPortfolio(url) {
+function openInNewTab(url) {
   var win = window.open(url, '_blank');
   win.focus();
+}
+
+function getCurrentTime(){
+  var currentTime = new Date(),
+      hours = currentTime.getHours(),
+      minutes = currentTime.getMinutes();
+
+	if (minutes < 10) {
+	 minutes = "0" + minutes;
+  }
+
+	var suffix = "AM";
+	if (hours >= 12) {
+    suffix = "PM";
+    hours = hours - 12;
+	}
+	if (hours == 0) {
+	 hours = 12;
+	}
+
+  var msg = new SpeechSynthesisUtterance(`The current time is ${hours} ${minutes} ${suffix}`);
+  msg.voice = speechSynthesis.getVoices().filter(function(voice) { return voice.name == 'Whisper'; })[0];
+  speechSynthesis.speak(msg);
 }
